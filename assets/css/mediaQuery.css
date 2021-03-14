@@ -1,0 +1,64 @@
+@media (max-width: 750px){
+
+    html{
+
+        font-size: 8px;
+    }
+
+    #bars{
+
+        display: flex;
+        margin-right: 3rem;
+        font-size: 3.5rem
+    }
+
+    .iphone{
+
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+
+    }
+
+    nav{
+
+        z-index: 10;
+
+    }
+
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        top: 79px;
+        right: -100%;
+        text-align: center;
+        z-index: 10;
+        margin: 0;
+        transition: .4s ease-in-out;
+        flex-direction: column;
+
+    }
+
+    .navbar > .nav-list{
+    
+        display: flex;
+        flex-direction: column
+    
+    }
+    
+    .nav-list > .nav-item{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto!important;
+        padding: 3rem 2rem;
+        width: 200px;
+    }
+
+    .nav-link{
+        font-size: 2.5rem!important;
+        color: black!important;
+
+    }
+}
