@@ -1,0 +1,200 @@
+*{
+
+    box-sizing: border-box;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-weight: normal;
+
+}   
+
+p,h1,h2,h3,h4,h5,h6{
+
+    margin:0;
+    padding: 0;
+
+}
+
+html, body{
+
+    
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+
+    font-size: 10px;
+
+}
+
+
+header.homepage-section{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/hero_bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top right;
+    background-size: auto 100%;
+    background-size: fill;
+    background-color: rgb(243, 247, 250);
+    position: relative
+
+
+}
+
+.navbar{
+    height: 80px;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.navbar > .nav-list{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav-list > .nav-item{
+
+    padding: 0.7rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.nav-list > .nav-item > .nav-link{
+
+    font-size: 1.6rem;
+    font-family: "Futura Bk BT", sans-serif;
+    color: rgb(255, 255, 255);
+
+
+}
+
+
+#myAccount{
+
+    border: 2px solid #7ad4cc;
+    border-radius: 3rem;
+    padding: 1.7rem 3rem;
+    margin: 0 4rem 0 1rem;
+
+}
+
+
+.logo-container{
+
+    height: 100%;
+
+}
+
+#logo{
+
+    height: 80%;
+    object-fit: contain;
+
+}
+
+
+.homepage-text{
+    
+    margin: 0 auto;
+    width: 80%;
+    min-width: 350px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    position: relative;
+    top: 6rem;
+    position: relative;
+
+}
+
+.main-homepage{
+
+    width: 100%;
+
+}
+
+
+.homepage-title{
+    font-weight: 500;
+    font-family: "Futura Bk BT", sans-serif;
+    font-size: 7rem;
+    color: #20509e;
+    
+
+}
+
+.homepage-subtititle{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.2rem;
+    color: #75849a;
+    margin: 4rem 0;
+    text-align: left;
+    max-width: 100%;
+
+
+}
+
+.homepage-title > span{
+
+    color: #16d0c5;
+
+}
+
+#form-search-service{
+
+    margin: 4rem 0;
+
+}
+
+.search-service{
+
+    width: 31.5rem;
+    border: 1px solid #ebebeb;
+    background: #fff;
+    height: 4.8rem;
+    padding: 0 2.5rem;
+    border-radius: 50px;
+    font-family: "Futura", sans-serif;
+    font-size: 1.6rem;
+    margin-right: 0.8rem;
+    margin-bottom: 2rem;
+
+}
+
+
+.btn-search-service{
+
+    background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+    padding: 1.7rem 3.2rem;
+    color: #fff;
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    border-radius: 5rem;
+    font-family: "Futura Bk BT", sans-serif;
+    min-width: 17rem;
+    text-align: center;
+    border: 2px solid #7ad4cc;
+    cursor: pointer;
+    color: #fff;
+
+}
