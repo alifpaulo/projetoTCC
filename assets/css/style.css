@@ -23,6 +23,8 @@ html, body{
     
     margin: 0;
     padding: 0;
+        min-width: fit-content;
+    
 
 }
 
@@ -44,18 +46,42 @@ header.homepage-section{
     background-size: auto 100%;
     background-size: fill;
     background-color: rgb(243, 247, 250);
-    position: relative
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
 .navbar{
+    position: fixed;
+    background-color: transparent;
+    top:0;
+    width: 100%;
     height: 80px;
     padding: 0 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    z-index:10;
+
+
+}
+
+#bars{
+
+ display: none;
+
+}
+
+
+.show{
+
+    right:0;
+    transition: .4s ease;
 
 }
 
@@ -81,6 +107,15 @@ header.homepage-section{
     font-size: 1.6rem;
     font-family: "Futura Bk BT", sans-serif;
     color: rgb(255, 255, 255);
+
+
+}
+
+#bars{
+
+    font-size: 1.6rem;
+    font-family: "Futura Bk BT", sans-serif;
+    color: white;
 
 
 }
@@ -116,10 +151,11 @@ header.homepage-section{
     width: 80%;
     min-width: 350px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     position: relative;
-    top: 6rem;
+    margin-top: 8rem;
     position: relative;
+    z-index: 1;
 
 }
 
@@ -137,6 +173,20 @@ header.homepage-section{
     color: #20509e;
     
 
+}
+
+.iphone{
+
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .homepage-subtititle{
