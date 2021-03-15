@@ -20,7 +20,7 @@
     <header class="homepage-section">
         <nav class="navbar">
             <label for="" class="logo-container">
-                <img src="assets/img/logos/google_icon.svg" id="logo" alt="">
+                <img src="assets/img/logos/fix.svg" id="logo" alt="">
             </label>
             <ul class="nav-list">
                 <li class="nav-item"><a href="" class="nav-link">Página Inicial</a></li>
