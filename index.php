@@ -38,9 +38,9 @@
                 <h2 class="homepage-title">Serviços que a <br><span>Fix</span> te garante</h2>
                 <h4 class="homepage-subtititle">O nosso sustento é consequência do que recebemos pelo nosso trabalho
                 </h4>
-                <form action="" method="post" id="form-search-service">
-                    <input type="text" class="search-service" name="sendEmail" placeholder="Procure por um serviço">
-                    <button type="submit" class="btn-search-service">Buscar</button>
+                <form action="exibir.php" method="post" id="form-search-service">
+                    <input type="text" class="search-service" name="tipo" placeholder="Procure por um serviço">
+                    <button type="submit" class="btn-search-service" name="enviar">Buscar</button>
                 </form>
             </div>
             <div class="center">
@@ -48,8 +48,6 @@
             </div>
         </div>
     </header>
-
-
 
     <script lang="javascript">
 
