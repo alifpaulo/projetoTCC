@@ -14,6 +14,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 
     <title>Página inicial</title>
+
+<style type="text/css">
+
+#logo{
+
+    margin-left: 5rem;
+    margin-top: 2rem;
+    line-height: 80px;
+}
+
+</style>
+
 </head>
 
 <body>
